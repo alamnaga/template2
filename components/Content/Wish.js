@@ -56,7 +56,8 @@ export default function Wish() {
     };
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbzePSmkabkH0iyf4iPPM5V1oRf9PyM9Py_-6gbAYLafqfM4u0fsOGyuucAc9dHTt04P/exec", {
+      const response = await fetch("#", {
+        // link api: https://sheetdb.io/api/v1/ob7gvvfljm931
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -37,8 +37,6 @@ export default function Home() {
                 <meta property="og:title" content={`${data.nama_wanita} & ${data.nama_pria}`} />
                 <meta property="og:description" content="Wedding Invitation" />
                 <meta property="og:site_name" content={`Wedding Invitation ${data.nama_pria} & ${data.nama_wanita}`} />
-                <meta property="og:image" content="https://i.ibb.co/MCmNrwQ/IMG-20211104-104058.png" />
-                <meta property="og:image:secure_url" content="https://i.ibb.co/MCmNrwQ/IMG-20211104-104058.png" />
                 <meta property="og:image:width" content="1296" />
                 <meta property="og:image:height" content="864" />
                 <meta property="og:image:alt" content={`The Wedding Of ${data.nama_pria} & ${data.nama_wanita}`} />
@@ -47,7 +45,6 @@ export default function Home() {
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content={`The Wedding Of ${data.nama_pria} & ${data.nama_wanita}`} />
                 <meta name="twitter:description" content="Wedding Invitation" />
-                <meta name="twitter:image" content="https://i.ibb.co/MCmNrwQ/IMG-20211104-104058.png" />
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
             {invited ?
