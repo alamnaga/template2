@@ -56,7 +56,7 @@ export default function Footer({}) {
           <br />
 
           <div>
-            <div className="flex justify-center space-x-5" data-aos="fade-in" data-aos-duration="3000">
+            <div className="flex justify-center space-x-5">
               <a
                 href="https://instagram.com"
                 target="_blank"
